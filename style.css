@@ -24,8 +24,64 @@ h1{
 
 .top-section{
     background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 section{
     height: 500px;
+    padding-bottom: 120px;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.finish{
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.exp{
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+
+.single-exp{
+    
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 80%;
+}
+
+h4{
+    color: orange;
+}
+
+#stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon , tomato);
+    border-image-slice: 1;
+}  
+
+#slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(42, 9, 134) , rgb(135, 71, 255));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    
 }
